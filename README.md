@@ -3,7 +3,7 @@
 基于真实AIGC接单经历搭建的可视化复盘工具。
 
 ## 在线体验
-aigcfolio.netlify.app
+aigcdash.netlify.app
 
 ## 技术栈
 Vue 3 / Vue Router / Pinia / ECharts / html2canvas / jspdf

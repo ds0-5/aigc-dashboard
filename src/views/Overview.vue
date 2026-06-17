@@ -10,14 +10,14 @@
       </div>
       <div class="summary-card">
         <div class="summary-value">{{ store.projectCount }}</div>
-        <div class="summary-label">交付项目数</div>
+        <div class="summary-label">交付项目数量</div>
       </div>
       <div class="summary-card">
         <div class="summary-value">100%</div>
-        <div class="summary-label">客户满意度</div>
+        <div class="summary-label">客户满意程度</div>
       </div>
       <div class="summary-card">
-        <div class="summary-value">4.5天</div>
+        <div class="summary-value">3天</div>
         <div class="summary-label">平均交付周期</div>
       </div>
     </div>
@@ -73,7 +73,7 @@ function goToRetrospect(id) {
 }
 
 h2 {
-  color: #a78bfa;
+  color: #73527b;
   margin-bottom: 24px;
   font-size: 1.5em;
 }
@@ -87,7 +87,7 @@ h2 {
 }
 
 .summary-card {
-  background: #1a1a2e;
+  background: #313153;
   border: 1px solid #2a2a4a;
   border-radius: 12px;
   padding: 20px;
@@ -105,7 +105,7 @@ h2 {
 
 .summary-label {
   font-size: 0.8em;
-  color: #888;
+  color: #857474;
 }
 
 /* 项目卡片 */

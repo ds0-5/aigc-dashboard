@@ -7,9 +7,10 @@
     
     <!-- 导航按钮 -->
     <nav class="tabs">
-      <router-link to="/overview" class="tab-btn">📋 项目全景</router-link>
-      <router-link to="/retrospect" class="tab-btn">🔍 深度复盘</router-link>
-      <router-link to="/capability" class="tab-btn">⚡ 能力沉淀</router-link>
+      <router-link to="/overview" class="tab-btn">📋 1.项目全景</router-link>
+      <router-link to="/retrospect" class="tab-btn">🔍 2.深度复盘</router-link>
+      <router-link to="/capability" class="tab-btn">⚡ 3.能力沉淀</router-link>
+      <a href="https://aigc-gallery.netlify.app" class="tab-btn" target="_blank">🎨 作品画廊👉</a>
     </nav>
 
     <!-- 页面内容 -->

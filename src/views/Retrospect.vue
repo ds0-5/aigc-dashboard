@@ -33,7 +33,7 @@
               <h4>{{ item.step }}</h4>
               <span class="timeline-time">{{ item.time }}</span>
             </div>
-            <p>{{ item.detail }}</p>
+            <p style="white-space: pre-wrap">{{ item.detail }}</p>
           </div>
         </div>
       </div>

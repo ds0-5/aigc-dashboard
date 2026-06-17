@@ -13,11 +13,11 @@
       <div class="cap-section">
         <h3>🧰 工具链</h3>
         <div class="tool-wall">
-          <div class="tool-item">🎨 Midjourney</div>
-          <div class="tool-item">🎬 Runway Gen-2</div>
-          <div class="tool-item">✍️ ChatGPT</div>
-          <div class="tool-item">📝 Notion（SOP管理）</div>
-          <div class="tool-item">✂️ 剪映/CapCut</div>
+          <div class="tool-item">🎨 豆包、小黄雀</div>
+          <div class="tool-item">🎬 即梦、可灵</div>
+          <div class="tool-item">✍️ DeepSeek、千问</div>
+          <div class="tool-item">📝 Word、Notion（SOP管理）</div>
+          <div class="tool-item">✂️ 剪映</div>
           <div class="tool-item">🖼 Photoshop</div>
           <div class="tool-item">🎞 DaVinci Resolve</div>
           <div class="tool-item">📊 Canva</div>
@@ -32,19 +32,19 @@
       <div class="sop-flow">
         <div class="sop-step">
           <div class="sop-icon">📋</div>
-          <div class="sop-step-title">需求拆解</div>
-          <div class="sop-step-detail">客户Brief<br>→ 功能点清单</div>
+          <div class="sop-step-title">借助AI需求拆解</div>
+          <div class="sop-step-detail">客户Brief<br>→ AIGC版真题题干</div>
         </div>
         <div class="sop-arrow">→</div>
         <div class="sop-step">
           <div class="sop-icon">🎞</div>
           <div class="sop-step-title">分镜设计</div>
-          <div class="sop-step-detail">表格+参考图<br>+ 时长标注</div>
+          <div class="sop-step-detail">基础概要<br>+ 脚本策划</div>
         </div>
         <div class="sop-arrow">→</div>
         <div class="sop-step">
           <div class="sop-icon">🤖</div>
-          <div class="sop-step-title">AI生成</div>
+          <div class="sop-step-title">AI试稿+AI反复优化</div>
           <div class="sop-step-detail">提示词编写<br>→ 参数调优</div>
         </div>
         <div class="sop-arrow">→</div>
@@ -57,7 +57,7 @@
         <div class="sop-step">
           <div class="sop-icon">📊</div>
           <div class="sop-step-title">复盘沉淀</div>
-          <div class="sop-step-detail">耗时/难点<br>→ 经验入库</div>
+          <div class="sop-step-detail">回忆耗时/难点等价值点<br>→ 经验入库</div>
         </div>
       </div>
     </div>
@@ -67,16 +67,16 @@
       <h3>💬 接单心得</h3>
       <div class="insight-cards">
         <div class="insight-card">
-          <div class="insight-title">💰 定价策略</div>
-          <p>先出小样确认风格，再报全价。降低客户决策成本，提高成交率。</p>
+          <div class="insight-title">💰 效率问题</div>
+          <p>形成自己的SOP流程，提高工作效率。</p>
         </div>
         <div class="insight-card">
           <div class="insight-title">🔄 修改管控</div>
-          <p>合同中明确免费修改次数（2次），超出按工时计费，保护自己的时间。</p>
+          <p>建立修改流程和标准，控制修改范围和成本。</p>
         </div>
         <div class="insight-card">
           <div class="insight-title">📁 素材复用</div>
-          <p>建立个人提示词库和风格模板，同类需求可直接复用，效率翻倍。</p>
+          <p>建立个人提示词库和风格模板素材库，同类需求可以在参考中找到灵感，思考程度容易更深。</p>
         </div>
       </div>
     </div>
@@ -98,12 +98,12 @@ function renderRadarChart() {
   const option = {
     radar: {
       center: ['50%', '50%'],
-      radius: '65%',
+      radius: '70%',
       indicator: [
-        { name: '文生图', max: 100 },
-        { name: '图生视频', max: 100 },
-        { name: '分镜设计', max: 100 },
+        { name: '对AIGC兴趣浓厚', max: 100 },
+        { name: '需求转化', max: 100 },
         { name: '提示词工程', max: 100 },
+        { name: '分镜设计', max: 100 },
         { name: '后期剪辑', max: 100 },
         { name: '客户沟通', max: 100 }
       ],
@@ -123,7 +123,7 @@ function renderRadarChart() {
     series: [{
       type: 'radar',
       data: [{ 
-        value: [85, 70, 80, 75, 60, 90], 
+        value: [80, 75, 90, 60, 60, 50], 
         name: '技能值',
         areaStyle: { color: 'rgba(167,139,250,0.25)' },
         itemStyle: { color: '#a78bfa' },
